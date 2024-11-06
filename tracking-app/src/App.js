@@ -45,6 +45,15 @@ const App = () => {
           <button onClick={() => window.open("https://fyjktn-8080.csb.app/")}>
             External Link
           </button>
+          <li class="li-navbar">
+            <a href="app.js">HOME</a>
+          </li>
+          <li class="li-navbar">
+            <a href="about.html">ABOUT ME</a>
+          </li>
+          <li class="li-navbar">
+            <a href="contact.html">CONTACT ME</a>
+          </li>
         </div>
       )}
       {!isStarted ? (
